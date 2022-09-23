@@ -134,3 +134,33 @@ img {
     }
     
 }
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 2.8rem;
+    }
+
+    .row{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+
+}
