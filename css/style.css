@@ -127,6 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* BONUS */
+@media screen and (max-width: 1160px){
+
+    .container{
+        width: 80%;
+    }
+    
+}
+/*********************************************/
+
+/* TABLET */
 @media screen and (max-width: 768px){
 
     .container{
@@ -134,7 +146,9 @@ img {
     }
     
 }
+/*********************************************/
 
+/* MOBILE */
 @media screen and (max-width: 480px){
 
     h1{
@@ -153,14 +167,15 @@ img {
         width: 100%;
     }
 
-    .steps {
+    .steps,
+    .why-us {
         margin-bottom: 0;
     }
 
     .why-us {
         background-color: #222222;
-        margin-bottom: 0;
         padding: 3rem 0;
     }
 
 }
+/*********************************************/
