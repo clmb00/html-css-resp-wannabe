@@ -160,10 +160,7 @@ img {
         row-gap: 60px;
     }
 
-    .lessons .col,
-    .steps .col,
-    .why-us .col-left,
-    .why-us .col-right {
+    .row .col{
         width: 100%;
     }
 
